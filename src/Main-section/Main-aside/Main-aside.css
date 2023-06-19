@@ -1,0 +1,27 @@
+.jobCardWrapper{
+    height: 107vh;
+    width: 16%;
+    margin: 1%;
+    overflow: auto;
+}
+.jobCardWrapper::-webkit-scrollbar {
+    display: none;
+}
+.jobCardWrapper{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+#card{
+    height: 300px;
+    margin-bottom: 6%;
+}
+#asideCardImg{
+    height: 90px;
+}
+@media screen and (max-width:780px) {
+    .jobCardWrapper{
+        width: 90%;
+        padding: 2%;
+        display: block;
+    }
+}

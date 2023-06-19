@@ -1,0 +1,37 @@
+.cardContainer{
+    width: 100%;
+    box-shadow: 2px 2px 2px gray;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardWrapper{
+    width: 16%;
+    margin: 2%;
+}
+#card{
+    margin-bottom: 6%;
+}
+#card1{
+    margin-bottom: 6%;
+}
+#newsCardImg{
+    height: 100px;
+}
+.text-danger{
+    font-size: 14px;
+}
+@media screen and (max-width:780px) {
+    .cardContainer{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2%;
+    }
+    .cardWrapper{
+        width: 42%;
+    }
+    #newsCards{
+        overflow: scroll;
+        height: 40vh;
+    }
+}

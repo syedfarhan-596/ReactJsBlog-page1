@@ -1,0 +1,9 @@
+.wrapper1{
+    display: flex;
+}
+@media screen and (max-width:780px) {
+    .wrapper1{
+        display:flex;
+        flex-wrap: wrap;
+    }
+}

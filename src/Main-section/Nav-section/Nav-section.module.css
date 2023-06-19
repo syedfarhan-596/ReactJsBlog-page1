@@ -1,0 +1,43 @@
+.aside{
+    width: 10%;
+    height: 107vh;
+    overflow: hidden;
+}
+.aside >i{
+    margin-left: -12px;
+    font-size: 25px;
+}
+.aside >i:hover{
+    margin-left: 0px;
+    cursor: pointer;
+}
+.navBtn{
+    width: 100%;
+    font-weight: 700;
+}
+.navBtn > span{
+    padding-left: 30px;
+}
+.toggleLinks{
+    width: 100%;
+    background-color: lightgrey;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.closeArrow{
+    padding-left: 80px;
+    font-size: 25px;
+}
+.closeArrow :hover{
+    cursor: pointer;
+}
+@media screen and (max-width:780px) {
+    .aside{
+        width: 25%;
+        height: 100vh;
+        overflow: scroll;
+    }
+    .closeArrow{
+        padding-left: 30px;
+    }
+}
