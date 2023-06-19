@@ -19,7 +19,7 @@ const Navigation = () =>{
             {
                 showAside?<div>
             <div>
-                <button onClick={()=>setShow(!show)} className={classes.navBtn}>News <span class="bi bi-plus-square"></span></button>
+                <button onClick={()=>setShow(!show)} className={`btn btn-danger ${classes.navBtn}`}>News <span class="bi bi-plus-square"></span></button>
                 {
                     show?<div className={classes.toggleLinks}>
                     <Link to="">Technology News</Link>
@@ -35,7 +35,7 @@ const Navigation = () =>{
 
             </div>
             <div>
-                <button onClick={()=>setShow1(!show1)} className={classes.navBtn}>Blogs <span class="bi bi-plus-square"></span></button>
+                <button onClick={()=>setShow1(!show1)} className={`btn btn-danger ${classes.navBtn}`}>Blogs <span class="bi bi-plus-square"></span></button>
                 
                 {
                     show1?<div className={classes.toggleLinks}>
@@ -51,7 +51,7 @@ const Navigation = () =>{
 }
             </div>
             <div>
-                <button onClick={()=>setShow2(!show2)} className={classes.navBtn}>Jobss <span class="bi bi-plus-square"></span></button>
+                <button onClick={()=>setShow2(!show2)} className={`btn btn-danger ${classes.navBtn}`}>Jobss <span class="bi bi-plus-square"></span></button>
                 {
                     show2?<div className={classes.toggleLinks}>
                     <Link to="">Customer Service </Link>

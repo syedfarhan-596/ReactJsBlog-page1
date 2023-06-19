@@ -21,7 +21,7 @@
 @media screen and (max-width:780px) {
     .mainContainer{
         height: 100vh;
-        width: 70%;
+        width: 100%;
         overflow: scroll;
     }
 }

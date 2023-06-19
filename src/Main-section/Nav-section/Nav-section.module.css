@@ -33,9 +33,7 @@
 }
 @media screen and (max-width:780px) {
     .aside{
-        width: 25%;
-        height: 100vh;
-        overflow: scroll;
+        display: none;
     }
     .closeArrow{
         padding-left: 30px;
